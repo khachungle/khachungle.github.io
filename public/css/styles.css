@@ -1,0 +1,439 @@
+@font-face {
+    src: url(../font/Manrope-Bold.ttf);
+    font-family: Manrope;
+}
+
+@font-face {
+    font-family: Manrope-light;
+    src: url(../font/Manrope-VariableFont_wght.ttf);
+}
+
+.notification{
+    background-color: #333333;
+    color: white;
+    font-family: Manrope;
+    font-size: 0.9vw;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.navbar-nav li{
+    margin-left: 30px;
+}
+
+.content-in-banner{
+    line-height: 1;
+    position: absolute;
+    left: 5.5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content-in-banner button{
+    font-family: Manrope;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid #219ebc;
+    background-color: #219ebc;
+}
+
+.content-in-banner p{
+    font-family: Manrope;
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.content-in-banner span{
+    font-family: Manrope;
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.content-in-banner button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #219ebc;
+}
+
+/* .content-in-mainproducts button{
+    font-family: Manrope;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 12px 35px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.content-in-mainproducts button:hover{
+    background-color: #219ebc;
+    border: 1px solid #219ebc;
+    color: white;
+} */
+
+.topcategories p {
+    font-family: Manrope;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 800;
+    color: #494949;
+}
+
+hr {
+    margin-top: 100px;
+    color: #b7b8b7;
+}
+
+.aboutstore {
+    margin: 80px 0px;
+}
+
+p.p-left1 {
+    color: #027ac0;
+    font-size: 1vw;
+    font-family: Manrope;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+p.p-left2 {
+    color: #494949;
+    font-family: Manrope;
+    font-size: 3vw;
+    font-weight: 800;
+    margin-right: 60px;
+}
+
+p.p-right {
+    font-family: Manrope-light;
+    color: #999999;
+    line-height: 40px;
+    font-size: 2vw;
+}
+
+button.btn-aboutstore {
+    color: #027ac0;
+    margin-top: 40px;
+    padding: 12px 35px;
+    border: 1px solid #e2e2e2;
+    background-color: white;
+}
+
+button.btn-aboutstore:hover{
+    background-color: #219ebc;
+    border: 1px solid #219ebc;
+    color: white;
+}
+
+button.btn-aboutstore a {
+    font-family: Manrope-light;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.category {
+    position: relative;
+}
+
+.category p {
+    font-size: 16px;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline;
+}
+
+.content-in-mainproducts{
+    position:absolute;
+    bottom: 15%;
+    left: 48%;
+}
+
+.content-in-mainproducts p{
+    font-family: Manrope;
+    font-size:200%;
+    /* font-size: 50px; */
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+}
+
+.content-in-mainproducts button{
+    font-family: Manrope;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 12px 35px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.content-in-mainproducts button:hover{
+    background-color: #219ebc;
+    border: 1px solid #219ebc;
+    color: white;
+}
+
+.p-trending-product{
+    text-align: center;
+    font-family: Manrope;
+    font-size: 3vw;
+    font-weight: 800;
+    color: #494949;
+    margin-bottom: 0;
+}
+
+.product-type{
+    margin-top: 20px !important;
+    text-align: center;
+    font-size: 16px;
+    font-family: Manrope;
+}
+
+.product-type a{
+    text-decoration: none;
+    color: #494949;
+    font-family: Manrope;
+    font-weight: 800;
+}
+
+.product-type a:hover{
+    border-bottom: 2px solid #007cc0;
+    color: #007cc0;
+}
+
+.list-trending-products{
+    margin-top: 80px;
+}
+
+.discount{
+    position: absolute;
+    padding: 0 7px;
+    border: 1px solid #5d9657;
+    background-color: #5d9657;
+    color: white;
+    top: 6%;
+    right: 8%;
+}
+.trendingproduct{
+    padding: 12px;
+    position:relative;
+}
+
+.trendingproduct:hover{
+    border: 1px solid black;
+}
+
+.content-for-trendingproduct{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.content-for-trendingproduct p{
+    font-family: Manrope;
+    font-weight: 800;
+    color: #494949;
+    margin-bottom: 5px;
+}
+.price{
+    text-align: center;
+    font-family: Manrope;
+
+}
+
+.big-sale-banner{
+    padding: 0;
+}
+
+.new-price{
+    display: inline-block;
+    color: #007cc5;
+    font-weight: 700;
+    font-size: 16px;
+    }
+.old-price{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration:line-through;
+    color: #999999;
+    margin-left: 5%;
+}
+
+.bigsaleproducts{
+    position: relative;
+    font-family: Manrope;
+    margin-top: 90px;
+}
+
+.sale-info{
+    font-size: 1vw;
+    font-weight: 600;
+    color: #71aac3;
+}
+
+.big-sale-banner{
+    position: relative;
+}
+
+.content-in-big-sale-banner{
+    line-height: 1;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content-in-big-sale-banner p{
+    font-size: 3vw;
+    font-weight: 800;
+    color: white;
+}
+
+.content-in-big-sale-banner button{
+    font-size: 1vw;
+    padding: 15px 35px;
+    border: 1px solid white;
+}
+
+.nav-item{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Manrope;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.content-in-big-sale-banner button:hover{
+    background-color: #219ebc;
+    border: 1px solid #219ebc;
+    color: white;
+}
+
+.list-item .item{
+    margin-left: 20px;
+}
+
+.list-item .item a{
+    color: #929292;
+}
+
+.p-featured-product{
+    text-align: center;
+    font-family: Manrope;
+    font-size: 3vw;
+    font-weight: 800;
+    color: #494949;
+    margin-bottom: 0;
+}
+
+.list-featured-products{
+    margin-top: 80px;
+}
+
+.featuredproduct{
+    padding: 12px;
+    position:relative;
+}
+
+.featuredproduct:hover{
+    border: 1px solid black;
+}
+
+.content-for-featuredproduct{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.content-for-featuredproduct p{
+    font-family: Manrope;
+    font-weight: 800;
+    color: #494949;
+    margin-bottom: 5px;
+}
+.brands{
+    opacity: 0.5;
+}
+
+.brand{
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 100px;
+    background-color: #333333;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+input{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h5{
+    color: #027ac0;
+}
+
+.footer-list a{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #767375;
+}
+
+.join-our p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #767375;
+}
+
+.contact{
+    font-size: 18px;
+    font-weight: 600;
+    color: #767375;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media .item{
+    width: 18px;
+    height: 18px;
+    color: white;
+    padding: 20px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.social-media .item i{
+    position: absolute;
+    top: 32%;
+    left: 32%;
+}
+
+.endfooter{
+    color: #767375;
+    font-weight: 600;
+}
